@@ -1,5 +1,5 @@
 ---
-title: 获取服务器时间
+title: 获取服务器时间1
 position_number: 1
 type: get 
 description: /v4/public/time
