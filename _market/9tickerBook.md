@@ -55,10 +55,10 @@ right_code_blocks:
                     {
                       "s": "btc_usdt",      //symbol
                       "t": 1661856036925,   //last updated time 
-                      "ap": null,           //asks price(sell one price)
-                      "aq": null,           //asks qty(sell one quantity)
-                      "bp": null,           //bids price(buy one price)
-                      "bq": null            //bids qty(buy one quantity)
+                      "ap": "65906.010",           //asks price(sell one price)
+                      "aq": "0.00385",           //asks qty(sell one quantity)
+                      "bp": "65906.000",           //bids price(buy one price)
+                      "bq": "0.00514"            //bids qty(buy one quantity)
                     }
                   ]
                 }

@@ -55,10 +55,10 @@ right_code_blocks:
                     {
                       "s": "btc_usdt",      //交易对(symbol)
                       "t": 1661856036925,   //最后更新时间(last updated time) 
-                      "ap": null,           //asks price(卖一价)
-                      "aq": null,           //asks qty(卖一量)
-                      "bp": null,           //bids price(买一价)
-                      "bq": null            //bids qty(买一量)
+                      "ap": "65906.010",           //asks price(卖一价)
+                      "aq": "0.00385",           //asks qty(卖一量)
+                      "bp": "65906.000",           //bids price(买一价)
+                      "bq": "0.00514"            //bids qty(买一量)
                     }
                   ]
                 }

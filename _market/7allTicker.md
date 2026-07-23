@@ -38,7 +38,7 @@ content_markdown: >-
 left_code_blocks:
     -
         code_block: |-
-            public String price(){
+            public String tickerPrice(){
 
 
             }

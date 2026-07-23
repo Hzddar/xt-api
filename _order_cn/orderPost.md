@@ -108,7 +108,6 @@ right_code_blocks:
                   ],
                   "result": {
                     "orderId": "6216559590087220004",   //订单ID
-                    "ip": "127.0.0.1"                   //ip地址
                   }
                 }
         title: Response

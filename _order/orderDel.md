@@ -37,7 +37,8 @@ right_code_blocks:
                     {}
                   ],
                   "result": {
-                    "cancelId": "6216559590087220004"
+                    "cancelId":"650466676217149120",
+                    "orderId":"650169915598632640"
                   }
                 }
         title: Response
