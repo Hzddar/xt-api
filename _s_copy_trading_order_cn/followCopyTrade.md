@@ -65,7 +65,7 @@ parameters:
         type: string
         mandatory: true
         default:
-        description: 跟单市场,逗号分隔，例如 xt_usdt,btc_usdt
+        description: 跟单市场,逗号分隔，例如 btcc_usdt,btc_usdt
         ranges:
 content_markdown: >-
     #### **限流规则**

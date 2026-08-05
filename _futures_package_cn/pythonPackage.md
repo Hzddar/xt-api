@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-  用于 XT.COM 的 HTTP API 的官方 Python3 Package :
+  用于 BTCC.COM 的 HTTP API 的官方 Python3 Package :
 
       https://pypi.org/project/pyxt/
 

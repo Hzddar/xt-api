@@ -8,11 +8,11 @@ parameters:
 content_markdown: |-
     Official:
 
-    **USDT-M:https://fapi.xt.com**
+    **USDT-M:https://fapi.btcc.com**
     {: .info}
 
 
-    **Coin-M:https://dapi.xt.com**
+    **Coin-M:https://dapi.btcc.com**
     {: .info}
 
 left_code_blocks:

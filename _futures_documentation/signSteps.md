@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    Example for http://fapi.xt.com/api/v1/public/symbol/detail?symbol=btc_usdt
+    Example for http://fapi.btcc.com/api/v1/public/symbol/detail?symbol=btc_usdt
     
     
     The following is an example of an order placed in a call interface using echo openssl and curl tools in a Linux bash environment. Appkey, secret for demonstration purposes only:

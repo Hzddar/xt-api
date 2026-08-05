@@ -8,7 +8,7 @@ parameters:
 content_markdown: |-
     正式:
 
-    **https://oapi.xt.com**
+    **https://oapi.btcc.com**
     {: .info}
 
 

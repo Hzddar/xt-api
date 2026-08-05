@@ -14,11 +14,11 @@ parameters:
 content_markdown: |-
     正式:
 
-    wss://fstream.xt.com
+    wss://fstream.btcc.com
     
-    行情ws订阅地址:  wss://fstream.xt.com/ws/market
+    行情ws订阅地址:  wss://fstream.btcc.com/ws/market
     
-    用户ws订阅地址:  wss://fstream.xt.com/ws/user
+    用户ws订阅地址:  wss://fstream.btcc.com/ws/user
 
 left_code_blocks:
 -

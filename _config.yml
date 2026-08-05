@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: XT DOC
-description: XT Interface documentation.
-url: https://xt-com.github.io/xt4-api/
+title: BTCC DOC
+description: BTCC Interface documentation.
+url: https://btcc-com.github.io/btcc4-api/
 google_analytics_key:
 permalink: pretty
 baseurl:
@@ -61,7 +61,7 @@ collections:
     language: en
     position_number: 9
   convert_small_assets:
-    title: Convert Small Assets to XT
+    title: Convert Small Assets to BTCC
     type: spot
     language: en
     position_number: 10
@@ -111,7 +111,7 @@ collections:
     language: cn
     position_number: 19
   convert_small_assets_cn:
-    title: 小额资产兑换XT
+    title: 小额资产兑换BTCC
     type: spot
     language: cn
     position_number: 20

@@ -10,14 +10,14 @@ parameters:
         mandatory: true
         default:
         description: Institutional identity
-        ranges: Please apply to XT.COM
+        ranges: Please apply to BTCC.COM
     -
         name: client_secret
         type: string
         mandatory: true
         default:
         description: Institutional Secret Key
-        ranges: Please apply to XT.COM
+        ranges: Please apply to BTCC.COM
     -
         name: grant_type
         type: string

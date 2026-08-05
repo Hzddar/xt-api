@@ -11,7 +11,7 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: 用户主动断开或者主动向XT Websocket服务器发送消息**close**；
+content_markdown: 用户主动断开或者主动向BTCC Websocket服务器发送消息**close**；
 left_code_blocks:
 -
     code_block:

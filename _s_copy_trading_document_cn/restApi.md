@@ -7,7 +7,7 @@ parameters:
         content:
 content_markdown: |-
 
-    **生产环境: https://sapi.xt.com**
+    **生产环境: https://sapi.btcc.com**
     {: .info}
 
 

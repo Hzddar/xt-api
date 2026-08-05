@@ -14,7 +14,7 @@ parameters:
 content_markdown: >-
     #### **基地址**
 
-    ##### **wss://fstream.xt.com/ws/user**
+    ##### **wss://fstream.btcc.com/ws/user**
 
 
     ---

@@ -17,13 +17,13 @@ content_markdown: |-
         **如何正确在本地维护一个orderbook副本**
         
 
-        1.订阅 wss://stream.xt.com/public，depth_update@btc_usdt
+        1.订阅 wss://stream.btcc.com/public，depth_update@btc_usdt
 
 
         2.开始缓存收到的更新。同一个价位，后收到的更新覆盖前面的。
 
 
-        3.访问Rest接口 https://sapi.xt.com/v4/public/depth?symbol=btc_usdt&limit=500 获得一个500档的深度快照
+        3.访问Rest接口 https://sapi.btcc.com/v4/public/depth?symbol=btc_usdt&limit=500 获得一个500档的深度快照
 
 
         4.将目前缓存到的信息中i <= 步骤3中获取到的快照中的lastUpdateId的部分丢弃(丢弃更早的信息，已经过期)。

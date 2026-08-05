@@ -65,7 +65,7 @@ parameters:
         type: string
         mandatory: true
         default:
-        description: copy trade symbols. e.g. xt_usdt,btc_usdt
+        description: copy trade symbols. e.g. btcc_usdt,btc_usdt
         ranges:
 content_markdown: >-
     #### **Limit Flow Rules**

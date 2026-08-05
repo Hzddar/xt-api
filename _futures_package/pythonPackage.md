@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
   
-    Official Python3 API connector for XT.COM's HTTP APIs :
+    Official Python3 API connector for BTCC.COM's HTTP APIs :
         
         https://pypi.org/project/pyxt/
 

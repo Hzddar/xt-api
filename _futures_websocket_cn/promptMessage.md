@@ -12,7 +12,7 @@ parameters:
         description:
         ranges:
 content_markdown: >-
-    当用户的Websocket客户端连接到XT
+    当用户的Websocket客户端连接到BTCC
     Websocket服务器后，服务器会定期（当前设为5秒）向其发送ping消息并包含一个时间戳，当用户接收到此心跳消息后，应及时返回pong消息并包含同一时间戳，格式如：
 
 

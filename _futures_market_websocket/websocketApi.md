@@ -14,11 +14,11 @@ parameters:
 content_markdown: |-
     Official:
 
-    wss://fstream.xt.com
+    wss://fstream.btcc.com
     
-    WS market information subscription address:  wss://fstream.xt.com/ws/market
+    WS market information subscription address:  wss://fstream.btcc.com/ws/market
     
-    WS user subscription address:  wss://fstream.xt.com/ws/user
+    WS user subscription address:  wss://fstream.btcc.com/ws/user
 
 left_code_blocks:
 -

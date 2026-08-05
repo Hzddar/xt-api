@@ -12,13 +12,13 @@ content_markdown: >-
 
     Sdks for each language:
         
-        java : https://github.com/xt-com/xt4-java-demo
-        golang : https://github.com/xt-com/xt4-go-demo
-        c# : https://github.com/xt-com/xt4-c--demo
+        java : https://github.com/btcc-com/btcc4-java-demo
+        golang : https://github.com/btcc-com/btcc4-go-demo
+        c# : https://github.com/btcc-com/btcc4-c--demo
 
     Sample request information for each interface：
         
-        https://github.com/xt-com/xt4-request-demo/blob/master/request-xt.txt
+        https://github.com/btcc-com/btcc4-request-demo/blob/master/request-btcc.txt
 
 
 left_code_blocks:

@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    http://oapi.xt.com/future/api/v1/public/symbol/detail?symbol=btc_usdt的示例
+    http://oapi.btcc.com/future/api/v1/public/symbol/detail?symbol=btc_usdt的示例
     
     
     以下是在linux bash环境下使用 echo openssl 和curl工具实现的一个调用接口下单的示例 appkey、secret仅供示范：

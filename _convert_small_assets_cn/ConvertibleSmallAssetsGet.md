@@ -37,7 +37,7 @@ right_code_blocks:
                                                 "convertFee": "0.00035546"     // 转换估值手续费
                                             }
                                 ],
-                                "convertCurrency": "XT",                       // 转换币种
+                                "convertCurrency": "BTCC",                       // 转换币种
                                 "totalToBtc": "0.00016848",                    // BTC总估值
                                 "totalConvertAmount": "0.01777302",            // 转换总估值（未扣除手续费）
                                 "totalConvertFee": "0.02"                      // 转换总估值手续费

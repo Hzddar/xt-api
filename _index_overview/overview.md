@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-  Welcome to XT API documentation. XT provides REST and Websocket APIs to suit your trading needs.
+  Welcome to BTCC API documentation. BTCC provides REST and Websocket APIs to suit your trading needs.
 
 
 ---

@@ -37,7 +37,7 @@ right_code_blocks:
                                                 "convertFee": "0.00035546"     // Conversion Valuation Fee
                                             }
                                 ],
-                                "convertCurrency": "XT",                       // Converted Currency Received
+                                "convertCurrency": "BTCC",                       // Converted Currency Received
                                 "totalToBtc": "0.00016848",                    // Total BTC Valuation
                                 "totalConvertAmount": "0.01777302",            // Total Conversion Valuation (Before Fees Deduction)
                                 "totalConvertFee": "0.02"                      // Total Conversion Valuation Fee

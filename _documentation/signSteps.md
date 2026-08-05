@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    Take https://sapi.xt-uat.com/v4/order as an example.
+    Take https://sapi.btcc-uat.com/v4/order as an example.
     
     
     The following is an example appkey and secret for placing an order using a call interface implemented by echo openssl and curl tools in the linux bash environment for demonstration purposes only:
@@ -149,11 +149,11 @@ content_markdown: >-
 
         sample of original signature message:
           
-            validate-algorithms=HmacSHA256&validate-appkey=2063495b-85ec-41b3-a810-be84ceb78751&validate-recvwindow=60000&validate-timestamp=1666026215729#POST#/v4/order#{"symbol":"XT_USDT","side":"BUY","type":"LIMIT","timeInForce":"GTC","bizType":"SPOT","price":3,"quantity":2}
+            validate-algorithms=HmacSHA256&validate-appkey=2063495b-85ec-41b3-a810-be84ceb78751&validate-recvwindow=60000&validate-timestamp=1666026215729#POST#/v4/order#{"symbol":"BTCC_USDT","side":"BUY","type":"LIMIT","timeInForce":"GTC","bizType":"SPOT","price":3,"quantity":2}
 
         sample request message:
   
-            curl --location --request POST 'https://sapi.xt.com/v4/order' 
+            curl --location --request POST 'https://sapi.btcc.com/v4/order' 
             --header 'accept: */*' 
             --header 'Content-Type: application/json' 
             --header 'validate-algorithms: HmacSHA256' 
@@ -161,7 +161,7 @@ content_markdown: >-
             --header 'validate-recvwindow: 60000' 
             --header 'validate-timestamp: 1666026215729' 
             --header 'validate-signature: 4cb36e820f50d2e353e5e0a182dc4a955b1c26efcb4b513d81eec31dd36072ba' 
-            --data-raw '{"symbol":"XT_USDT","side":"BUY","type":"LIMIT","timeInForce":"GTC","bizType":"SPOT","price":3,"quantity":2}'    
+            --data-raw '{"symbol":"BTCC_USDT","side":"BUY","type":"LIMIT","timeInForce":"GTC","bizType":"SPOT","price":3,"quantity":2}'    
 
         matters needing attention:
 

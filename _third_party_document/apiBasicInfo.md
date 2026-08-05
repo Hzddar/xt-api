@@ -5,7 +5,7 @@ parameters:
 - name:
 content:
 content_markdown: >-
-    Due to the reasons of high latency and poor stability, it is not recommend to access the XT API through a proxy.
+    Due to the reasons of high latency and poor stability, it is not recommend to access the BTCC API through a proxy.
 
 
     GET request parameters are put in query Params, POST request parameters are put in request body.

@@ -11,7 +11,7 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: The user may disconnect by themselves or send a “close” message to the XT Websocket server .
+content_markdown: The user may disconnect by themselves or send a “close” message to the BTCC Websocket server .
 left_code_blocks:
 -
     code_block:

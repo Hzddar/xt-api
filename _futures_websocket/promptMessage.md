@@ -12,7 +12,7 @@ parameters:
         description:
         ranges:
 content_markdown: >-
-    When the user's client Websocket connected to the XT Websocket server, the server will periodically send a ping message to user (currently set as 5 seconds) and include a timestamp. After receiving this prompt message, the user should promptly return the pong message and include the same timestamp in the following format:
+    When the user's client Websocket connected to the BTCC Websocket server, the server will periodically send a ping message to user (currently set as 5 seconds) and include a timestamp. After receiving this prompt message, the user should promptly return the pong message and include the same timestamp in the following format:
 
 
     \{"ping": 1562979600\}

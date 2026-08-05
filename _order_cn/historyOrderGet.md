@@ -132,7 +132,7 @@ right_code_blocks:
                     "state": "NEW",
                     "deductServices":[{   //手续费抵扣列表（如果设置手续费抵扣并产生抵扣，使用该字段代表手续费，没有抵扣使用原有fee、feeCurrency字段代表手续费）
                                           "fee":"0.1",     
-                                          "feeCurrency":"xt"
+                                          "feeCurrency":"btcc"
                                       },
                                       {   
                                           "fee":"0.001",

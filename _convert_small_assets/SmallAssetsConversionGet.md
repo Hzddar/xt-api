@@ -57,7 +57,7 @@ right_code_blocks:
                                     "currency": "ADA",          // currency
                                     "amount": "6.21",           // amount
                                     "convertAmount": "6.21",    // convert amount
-                                    "convertCurrency": "XT",    // convert currency
+                                    "convertCurrency": "BTCC",    // convert currency
                                     "convertFee": "0.00035546", // convert fee
                                     "createTime": 1615985535000 // create time
                                 }

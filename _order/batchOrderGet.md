@@ -55,9 +55,9 @@ right_code_blocks:
                           "fee": "string",
                           "feeCurrency": "string",
                           "state": "NEW",
-                          "deductServices":[{   //Fee deduction list (if set XT deduction fee and the deduction occurs, use this field to represent the trade fee. Otherwise, use the original fee and feeCurrency fields to represent the trade fee). 
+                          "deductServices":[{   //Fee deduction list (if set BTCC deduction fee and the deduction occurs, use this field to represent the trade fee. Otherwise, use the original fee and feeCurrency fields to represent the trade fee). 
                                                 "fee":"0.1",     
-                                                "feeCurrency":"xt"
+                                                "feeCurrency":"btcc"
                                             },
                                             {   
                                                 "fee":"0.001",

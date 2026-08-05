@@ -15,7 +15,7 @@ parameters:
 content_markdown: >-
     #### **基地址**
 
-    ##### **wss://stream.xt.com/private**
+    ##### **wss://stream.btcc.com/private**
 
 
     ---

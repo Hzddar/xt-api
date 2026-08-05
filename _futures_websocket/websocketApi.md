@@ -14,7 +14,7 @@ parameters:
 content_markdown: |-
     Official:
 
-    **wss://xtsocket.xt.com/websocket**
+    **wss://xtsocket.btcc.com/websocket**
     {: .info}
 
 left_code_blocks:

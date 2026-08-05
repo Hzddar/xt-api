@@ -12,7 +12,7 @@ parameters:
         description:
         ranges:
 content_markdown: |-
-    WS user subscription address:wss://fstream.xt.com/ws/user
+    WS user subscription address:wss://fstream.btcc.com/ws/user
     
     Step 1: The user need to call the interface: /v1/user/listen-key to get the listenKey.
     
