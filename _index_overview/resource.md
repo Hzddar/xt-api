@@ -21,7 +21,8 @@ content_markdown: >-
 
   A lightweight Java code library: [Java SDK](https://github.com/btcc-com/btcc4-java-demo)
 
-  <!--#### JavaScript SDK
+  <!--
+  #### JavaScript SDK
 
   This JavaScript SDK provides access to various endpoints for interacting with the BTCC platform: [JavaScript SDK](https://www.npmjs.com/package/btcc-open-api)
   -->
