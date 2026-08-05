@@ -37,9 +37,8 @@ right_code_blocks:
                     {}
                   ],
                   "result": {
-                  "cancelId":"650466676217149120",
-                  "orderId":"650169915598632640"
-                 }
+                    "cancelId": "6216559590087220004"
+                  }
                 }
         title: Response
         language: json

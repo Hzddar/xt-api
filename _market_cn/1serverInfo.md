@@ -33,7 +33,7 @@ right_code_blocks:
                   "mc": "SUCCESS",
                   "ma": [],
                   "result": {
-                    "serverTime": 1784618193239  //服务器时间
+                    "serverTime": 1662435658062  //服务器时间
                   }
                 }
         title: Response
