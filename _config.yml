@@ -126,6 +126,275 @@ collections:
     language: cn
     position_number: 22
 
+  futures_documentation:
+    title: Access Description
+    type: futures
+    language: en
+    position_number: 1
+  futures_package:
+    title: Python Package
+    type: futures
+    language: en
+    position_number: 2
+  futures_quotes:
+    title: Market data
+    type: futures
+    language: en
+    position_number: 3
+  futures_quote_collection:
+    title: Quote collection
+    type: futures
+    language: en
+    position_number: 4
+  futures_order:
+    title: Order
+    type: futures
+    language: en
+    position_number: 5
+  futures_entrust:
+    title: Entrust
+    type: futures
+    language: en
+    position_number: 6
+  futures_user:
+    title: User
+    type: futures
+    language: en
+    position_number: 7
+  # futures_market_websocket:
+  #   title: WEBSOCKET
+  #   type: futures
+  #   language: en
+  #   position_number: 6
+  futures_market_websocket_v2:
+    title: WEBSOCKET(V2)
+    type: futures
+    language: en
+    position_number: 8
+  futures_user_websocket_v2:
+    title: USER WEBSOCKET
+    type: futures
+    language: en
+    position_number: 9
+  futures_documentation_cn:
+    title: 接入说明
+    type: futures
+    language: cn
+    position_number: 1
+  futures_package_cn:
+    title: Python Package
+    type: futures
+    language: cn
+    position_number: 2
+  futures_quotes_cn:
+    title: 行情数据
+    type: futures
+    language: cn
+    position_number: 3
+  futures_quote_collection_cn:
+    title: 行情收录
+    type: futures
+    language: cn
+    position_number: 4
+  futures_order_cn:
+    title: 限价委托和市价委托
+    type: futures
+    language: cn
+    position_number: 5
+  futures_entrust_cn:
+    title: 计划委托与止盈止损
+    type: futures
+    language: cn
+    position_number: 6
+  futures_user_cn:
+    title: 用户相关
+    type: futures
+    language: cn
+    position_number: 7
+  # futures_market_websocket_cn:
+  #   title: 行情WEBSOCKET
+  #   type: futures
+  #   language: cn
+  #   position_number: 6
+  futures_market_websocket_v2_cn:
+    title: 行情WEBSOCKET(V2)
+    type: futures
+    language: cn
+    position_number: 8
+  futures_user_websocket_v2_cn:
+    title: 用户WEBSOCKET
+    type: futures
+    language: cn
+    position_number: 9
+
+  margin_document:
+    title: Access Description
+    type: margin
+    language: en
+    position_number: 1
+  margin_market:
+    title: Market
+    type: margin
+    language: en
+    position_number: 2
+  margin_balance:
+    title: Balance
+    type: margin
+    language: en
+    position_number: 3
+  margin_document_cn:
+    title: 接入说明
+    type: margin
+    language: cn
+    position_number: 1
+  margin_market_cn:
+    title: 市场
+    type: margin
+    language: cn
+    position_number: 2
+  margin_balance_cn:
+    title: 资产
+    type: margin
+    language: cn
+    position_number: 3
+
+  s_copy_trading_document:
+    title: Access Description
+    type: s_copy_trading
+    language: en
+    position_number: 1
+  s_copy_trading_document_cn:
+    title: 接入说明
+    type: s_copy_trading
+    language: cn
+    position_number: 1
+  s_copy_trading_order:
+    title: Copy Trading
+    type: s_copy_trading
+    language: en
+    position_number: 2
+  s_copy_trading_order_cn:
+    title: 跟单
+    type: s_copy_trading
+    language: cn
+    position_number: 2
+
+
+  f_copy_trading_document:
+    title: Access Description
+    type: f_copy_trading
+    language: en
+    position_number: 1
+  f_copy_trading_document_cn:
+    title: 接入说明
+    type: f_copy_trading
+    language: cn
+    position_number: 1
+  f_copy_trading_order:
+    title: Copy Trading
+    type: f_copy_trading
+    language: en
+    position_number: 2
+  f_copy_trading_order_cn:
+      title: 跟单
+      type: f_copy_trading
+      language: cn
+      position_number: 2
+
+  third_party_document:
+    title: Access Description
+    type: third_party
+    language: en
+    position_number: 1
+  third_party_document_cn:
+    title: 接入说明
+    type: third_party
+    language: cn
+    position_number: 1
+
+  third_party_user_reg:
+    title: User Registration
+    type: third_party
+    language: en
+    position_number: 2
+  third_party_user_reg_cn:
+    title: 用户注册
+    type: third_party
+    language: cn
+    position_number: 2
+
+  third_party_authorization_page:
+    title: Authorization Page
+    type: third_party
+    language: en
+    position_number: 3
+  third_party_authorization_page_cn:
+    title: 授权页跳转
+    type: third_party
+    language: cn
+    position_number: 3
+
+  third_party_oauth2:
+    title: OAuth Interface
+    type: third_party
+    language: en
+    position_number: 4
+  third_party_oauth2_cn:
+    title: OAuth2接口
+    type: third_party
+    language: cn
+    position_number: 4
+#  third_party_copy_trade:
+#    title: Copy Trade
+#    type: third_party
+#    language: en
+#    position_number: 5
+#  third_party_copy_trade_cn:
+#    title: 跟单接口
+#    type: third_party
+#    language: cn
+#    position_number: 5
+#  third_party_user:
+#    title: User
+#    type: third_party
+#    language: en
+#    position_number: 6
+#  third_party_user_cn:
+#    title: 用户
+#    type: third_party
+#    language: cn
+#    position_number: 6
+  third_party_order:
+    title: Order
+    type: third_party
+    language: en
+    position_number: 7
+  third_party_order_cn:
+    title: 订单
+    type: third_party
+    language: cn
+    position_number: 7
+  third_party_trade:
+    title: Trade
+    type: third_party
+    language: en
+    position_number: 8
+  third_party_trade_cn:
+    title: 成交
+    type: third_party
+    language: cn
+    position_number: 8
+  third_party_balance:
+    title: Balance
+    type: third_party
+    language: en
+    position_number: 9
+  third_party_balance_cn:
+    title: 资产
+    type: third_party
+    language: cn
+    position_number: 9
+
   user_center_documentation:
     title: Access Description
     type: user_center
@@ -141,6 +410,12 @@ collections:
     type: user_center
     language: en
     position_number: 3
+  user_center_commission:
+    title: Referral Commission
+    type: user_center
+    language: en
+    position_number: 4
+
   user_center_documentation_cn:
     title: 接入说明
     type: user_center
@@ -156,6 +431,12 @@ collections:
     type: user_center
     language: cn
     position_number: 6
+  user_center_commission_cn:
+    title: 邀请返佣
+    type: user_center
+    language: cn
+    position_number: 7
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -252,6 +533,92 @@ defaults:
       _hide_content: true
 
   - scope:
+      type: "futures_documentation"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_quotes"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_order"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_entrust"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_user"
+    values:
+      _hide_content: true
+  # - scope:
+  #     type: "futures_market_websocket"
+  #   values:
+  #     _hide_content: true
+  - scope:
+      type: "futures_market_websocket_v2"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_user_websocket"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_documentation_cn"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_quotes_cn"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_order_cn"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_entrust_cn"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_user_cn"
+    values:
+      _hide_content: true
+  # - scope:
+  #     type: "futures_market_websocket_cn"
+  #   values:
+  #     _hide_content: true
+  - scope:
+      type: "futures_market_websocket_v2_cn"
+    values:
+      _hide_content: true
+  - scope:
+      type: "futures_user_websocket_cn"
+    values:
+      _hide_content: true
+  - scope:
+      type: "margin_documentation"
+    values:
+      _hide_content: true
+  - scope:
+      type: "margin_documentation"
+    values:
+      _hide_content: true
+  - scope:
+      type: "third_party_oauth"
+    values:
+      _hide_content: true
+  - scope:
+      type: "third_party_document_cn"
+    values:
+      _hide_content: true
+  - scope:
+      type: "third_party_document"
+    values:
+      _hide_content: true
+
+
+  - scope:
       type: "user_center_documentation"
     values:
       _hide_content: true
@@ -284,7 +651,6 @@ defaults:
       type: "index_overview_cn"
     values:
       _hide_content: true
-
 # -----------
 # CloudCannon
 
