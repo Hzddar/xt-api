@@ -21,10 +21,13 @@ content_markdown: >-
 
   一个轻量级的Java代码库: [Java SDK](https://github.com/btcc-com/btcc4-java-demo)
 
-  <!-- #### JavaScript 库
+  <!-- 
+  
+  #### JavaScript 库
 
   此 JavaScript SDK 提供对各种端点的访问，以便与 BTCC 平台进行交互: [JavaScript SDK](https://www.npmjs.com/package/btcc-open-api)
   -->
+  
   #### 客户服务
 
   在我们的电报组中获取支持: [BTCC API Support Group](https://t.me/BTCC_api)<br />
