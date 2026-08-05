@@ -141,12 +141,6 @@ collections:
     type: user_center
     language: en
     position_number: 3
-  user_center_commission:
-    title: Referral Commission
-    type: user_center
-    language: en
-    position_number: 4
-
   user_center_documentation_cn:
     title: 接入说明
     type: user_center
@@ -162,12 +156,6 @@ collections:
     type: user_center
     language: cn
     position_number: 6
-  user_center_commission_cn:
-    title: 邀请返佣
-    type: user_center
-    language: cn
-    position_number: 7
-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
