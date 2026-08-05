@@ -57,34 +57,34 @@
 
 	function displaySearchResults(results, query) {
 		var spotSearchResultsEl = document.getElementById("spot-search-results"),
-			futuresSearchResultsEl = document.getElementById("futures-search-results"),
+			userCenterSearchResultsEl = document.getElementById("user-center-search-results"),
 			spotSearchProcessEl = document.getElementById("spot-search-process"),
-			futuresSearchProcessEl = document.getElementById("futures-search-process");
+			userCenterSearchProcessEl = document.getElementById("user-center-search-process");
 
 		if (results.length) {
 			var spotResultsHTML = "";
-			var futuresResultsHTML = "";
+			var userCenterResultsHTML = "";
 			results.forEach(function (result) {
 				var item = window.data[result.ref],
 					contentPreview = getPreview(query, item.content, 170),
 					titlePreview = getPreview(query, item.title);
 
-				if(item.category.indexOf("futures_") == 0){
-					futuresResultsHTML += "<li><h4><a href='" + item.url + "'>" + titlePreview + "</a></h4><p><small>" + contentPreview + "</small></p></li>";
+				if(item.category.indexOf("user_center_") == 0){
+					userCenterResultsHTML += "<li><h4><a href='" + item.url + "'>" + titlePreview + "</a></h4><p><small>" + contentPreview + "</small></p></li>";
 				} else {
 					spotResultsHTML += "<li><h4><a href='" + item.url + "'>" + titlePreview + "</a></h4><p><small>" + contentPreview + "</small></p></li>";
 				}
 			});
 
 			spotSearchResultsEl.innerHTML = spotResultsHTML;
-			futuresSearchResultsEl.innerHTML = futuresResultsHTML;
+			userCenterSearchResultsEl.innerHTML = userCenterResultsHTML;
 			spotSearchProcessEl.innerText = "Showing";
-			futuresSearchProcessEl.innerText = "Showing";
+			userCenterSearchProcessEl.innerText = "Showing";
 		} else {
 			spotSearchResultsEl.style.display = "none";
-			futuresSearchResultsEl.style.display = "none";
+			userCenterSearchResultsEl.style.display = "none";
 			spotSearchProcessEl.innerText = "No";
-			futuresSearchProcessEl.innerText = "No";
+			userCenterSearchProcessEl.innerText = "No";
 		}
 	}
 
@@ -98,16 +98,16 @@
 
 	var query = decodeURIComponent((getQueryVariable("q") || "").replace(/\+/g, "%20")),
 		spotSearchQueryContainerEl = document.getElementById("spot-search-query-container"),
-		futuresSearchQueryContainerEl = document.getElementById("futures-search-query-container"),
+		userCenterSearchQueryContainerEl = document.getElementById("user-center-search-query-container"),
 		spotSearchQueryEl = document.getElementById("spot-search-query"),
-		futuresSearchQueryEl = document.getElementById("futures-search-query"),
+		userCenterSearchQueryEl = document.getElementById("user-center-search-query"),
 		searchInputEl = document.getElementById("search-input");
 
 	searchInputEl.value = query;
 	spotSearchQueryEl.innerText = query;
-	futuresSearchQueryEl.innerText = query;
+	userCenterSearchQueryEl.innerText = query;
 	spotSearchQueryContainerEl.style.display = "inline";
-	futuresSearchQueryContainerEl.style.display = "inline";
+	userCenterSearchQueryContainerEl.style.display = "inline";
 
 	for (var key in window.data) {
 		window.index.add(window.data[key]);

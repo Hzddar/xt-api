@@ -132,18 +132,7 @@ function getShowSidebar(){
 			lang = "en";
 		}
 
-		//合约
-		if(anchorPoint.indexOf("futures_")==0){
-			model= "futures";
-		}else if(anchorPoint.indexOf("margin_")==0) {//杠杆
-			model= "margin";
-		}else if(anchorPoint.indexOf("s_copy_trading_")==0) {//现货跟单
-			model= "s_copy_trading";
-		}else if(anchorPoint.indexOf("f_copy_trading_")==0) {//合约跟单
-			model= "f_copy_trading";
-		}else if(anchorPoint.indexOf("third_party_")==0) {//第三方
-			model= "third_party";
-		}else if(anchorPoint.indexOf("user_center_")==0) {//用户中心
+		if(anchorPoint.indexOf("user_center_")==0) {//用户中心
 			model= "user_center";
 		}else {//现货
 			model= "spot";

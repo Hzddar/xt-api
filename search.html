@@ -7,7 +7,6 @@ permalink: /search/
 <div id="index_search">
 	<div class="search-page">
 		<h2>Search Results</h2>
-
 		<p><span id="index-search-process">Loading</span> results <span id="index-search-query-container" style="display: none;">for "<strong id="index-search-query"></strong>"</span></p>
 		<ul id="index-search-results"></ul>
 	</div>
@@ -17,59 +16,8 @@ permalink: /search/
 <div id="spot_search">
 	<div class="search-page">
 		<h2>Search Results</h2>
-
 		<p><span id="spot-search-process">Loading</span> results <span id="spot-search-query-container" style="display: none;">for "<strong id="spot-search-query"></strong>"</span></p>
 		<ul id="spot-search-results"></ul>
-	</div>
-</div>
-
-<!--合约-->
-<div id="futures_search">
-	<div class="search-page">
-		<h2>Search Results</h2>
-
-		<p><span id="futures-search-process">Loading</span> results <span id="futures-search-query-container" style="display: none;">for "<strong id="futures-search-query"></strong>"</span></p>
-		<ul id="futures-search-results"></ul>
-	</div>
-</div>
-
-<!--杠杆-->
-<div id="margin_search">
-	<div class="search-page">
-		<h2>Search Results</h2>
-
-		<p><span id="margin-search-process">Loading</span> results <span id="margin-search-query-container" style="display: none;">for "<strong id="margin-search-query"></strong>"</span></p>
-		<ul id="margin-search-results"></ul>
-	</div>
-</div>
-
-<!--现货跟单-->
-<div id="s_copy_trading_search">
-	<div class="search-page">
-		<h2>Search Results</h2>
-
-		<p><span id="s-copy-trading-search-process">Loading</span> results <span id="s-copy-trading-search-query-container" style="display: none;">for "<strong id="s-copy-trading-search-query"></strong>"</span></p>
-		<ul id="s-copy-trading-search-results"></ul>
-	</div>
-</div>
-
-<!--合约跟单-->
-<div id="f_copy_trading_search">
-	<div class="search-page">
-		<h2>Search Results</h2>
-
-		<p><span id="f-copy-trading-search-process">Loading</span> results <span id="f-copy-trading-search-query-container" style="display: none;">for "<strong id="f-copy-trading-search-query"></strong>"</span></p>
-		<ul id="f-copy-trading-search-results"></ul>
-	</div>
-</div>
-
-<!--第三方-->
-<div id="third_party_search">
-	<div class="search-page">
-		<h2>Search Results</h2>
-
-		<p><span id="third-party-search-process">Loading</span> results <span id="third-party-search-query-container" style="display: none;">for "<strong id="third-party-search-query"></strong>"</span></p>
-		<ul id="third-party-search-results"></ul>
 	</div>
 </div>
 
@@ -77,7 +25,6 @@ permalink: /search/
 <div id="user_center_search">
 	<div class="search-page">
 		<h2>Search Results</h2>
-
 		<p><span id="user-center-search-process">Loading</span> results <span id="user-center-search-query-container" style="display: none;">for "<strong id="user-center-search-query"></strong>"</span></p>
 		<ul id="user-center-search-results"></ul>
 	</div>
@@ -96,9 +43,9 @@ permalink: /search/
 							"title": "{{ item.title | xml_escape }}",
 							"category": "{{ collection.label | xml_escape }}",
 							"description": "{{item.description | xml_escape }}",
-		  					"type": "{{item.type | xml_escape}}",
+							"type": "{{item.type | xml_escape}}",
 							"url": "{{ site.baseurl }}/#{{ item.id | replace: '/', '' | replace: '.', '' | xml_escape }}",
-							"content": {{ item.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
+							"content": {{ item.content | strip_html | replace_regex: "[\\s/\\n]+"," " | strip | jsonify }}
 						}
 						{% assign added = true %}
 					{% endunless %}
