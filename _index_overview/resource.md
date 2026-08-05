@@ -8,24 +8,24 @@ content_markdown: >-
 
   #### Tutorials
 
-  Learn python spot trading step by step: [Python Spot Trading Tutorial](https://github.com/kelvinxue/pyxt/blob/main/examples/spot_guide.ipynb)<br />
+  <!-- Learn python spot trading step by step: [Python Spot Trading Tutorial](https://github.com/kelvinxue/pyxt/blob/main/examples/spot_guide.ipynb)<br />
   Learn python derivatives trading step by step: [Python Derivatives Trading Tutorial](https://github.com/kelvinxue/pyxt/blob/main/examples/future_guide.ipynb)
 
 
   #### Python libraries
 
   Use Python SDK for easier integration: [Python SDK](https://pypi.org/project/pyxt/)
-
+  -->
   #### Java libraries
 
   A lightweight Java code library: [Java SDK](https://github.com/btcc-com/btcc4-java-demo)
 
-  #### JavaScript SDK
+  <!-- #### JavaScript SDK
 
   This JavaScript SDK provides access to various endpoints for interacting with the BTCC platform: [JavaScript SDK](https://www.npmjs.com/package/btcc-open-api)
 
   #### Customer service
-
+  -->
   Get support in our telegram group: [BTCC API Support Group](https://t.me/BTCC_api)<br />
   If you have any questions, please consult online customer service
 
