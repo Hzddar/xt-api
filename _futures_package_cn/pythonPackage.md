@@ -8,7 +8,7 @@ content_markdown: >-
 
   用于 BTCC.COM 的 HTTP API 的官方 Python3 Package :
 
-      https://pypi.org/project/pyxt/
+      https://pypi.org/project/pybtcc/
 
 left_code_blocks:
 - code_block:
