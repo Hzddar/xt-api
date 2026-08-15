@@ -8,13 +8,13 @@ content_markdown: >-
 
   #### 教程
 
-  <!-- 一步步学习Python现货交易: [Python现货交易教程](https://github.com/kelvinxue/pyxt/blob/main/examples/spot_guide.ipynb)<br />
-  一步步学习Python衍生品交易: [Python衍生品交易教程](https://github.com/kelvinxue/pyxt/blob/main/examples/future_guide.ipynb)
+  <!-- 一步步学习Python现货交易: [Python现货交易教程](https://github.com/kelvinxue/btccxt/blob/main/examples/spot_guide.ipynb)<br />
+  一步步学习Python衍生品交易: [Python衍生品交易教程](https://github.com/kelvinxue/btccxt/blob/main/examples/future_guide.ipynb)
 
 
   #### Python 库
 
-  使用Python SDK更容易集成: [Python SDK](https://pypi.org/project/pyxt/)
+  使用Python SDK更容易集成: [Python SDK](https://pypi.org/project/btccxt/)
   -->
   
   #### Java 库
